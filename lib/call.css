@@ -1,0 +1,66 @@
+.sec{
+    display: inline-block;
+    width: 100%;
+    border-radius: 10px;
+
+}
+.sec1{
+    margin-top:10px;
+}
+body{
+    background-color:red;
+}
+
+.address{
+    float: right;
+    margin-right: 10px;
+    color: rgb(255, 255, 255);
+    
+}
+.message{
+    color:red!important;
+}
+.star{
+    color:red;
+}
+.address1{
+    float: right;
+    margin-right: 10px;
+    color: rgb(216, 0, 0);
+    
+}
+
+.address1:hover{
+
+    text-decoration:none;
+    color:rgb(138, 134, 134);
+}
+.txt{
+    background-color:#f8f9fa!important;
+    
+  
+}
+.my-card{
+    border:none;
+    box-shadow:1px 2px 5px #afafaf;
+}
+input[type="text"]::placeholder {
+    color: #7c7c7c;
+    opacity: 1; /* Firefox */
+  }
+ .bord{
+    border-radius: 25px!important;
+    
+}
+
+/* control panel */
+
+
+
+.controll {
+    color: white;
+}
+
+
+
+

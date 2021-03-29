@@ -36,12 +36,12 @@
 
                      $time_Observance_error =array();
                    
-                  if(empty($_post['uidnumber'])){
+                  if(empty($_POST['uidnumber'])){
 
                     $time_Observance_error[]="الرجاء كتابة<strong>رقم المعرف</string>";
                   }
 
-                  if(empty($_post['uname'])){
+                  if(empty($_POST['uname'])){
 
                     $time_Observance_error[]="الرجاء كتابة<strong>الاسم</string>";
                   }
@@ -103,14 +103,14 @@
                   }
               }else{
 
-                echo  $_post['uidnumber'];
-                echo  $_post['uname'];
-                echo  $_post['device'];
-                echo  $_post['headphone'];
-                echo  $_post['devtimefrom'];
-                echo  $_post['devtimeto'];
-                echo  $_post['speaktimefrom'];
-                echo  $_post['speaktimeto'];
+                echo  'رقم المعرف '.$_POST['uidnumber'].'<br>';
+                echo  'الاسم '.$_POST['uname'].'<br>';
+                echo  'النوع '.$_POST['device'].'<br>';
+                echo  'النوع '.$_POST['headphone'].'<br>';
+                echo  'الزمن من '.$_POST['devtimefrom'].'<br>';
+                echo  'الى '.$_POST['devtimeto'].'<br>';
+                echo  'الزمن من '.$_POST['speaktimefrom'].'<br>';
+                echo  'الى '.$_POST['speaktimeto'];
 
               }
 
